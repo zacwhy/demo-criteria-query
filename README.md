@@ -1,5 +1,7 @@
 # Criteria Query Demo
 
+[![Build Status](https://travis-ci.org/zacwhy/demo-criteria-query.svg)](https://travis-ci.org/zacwhy/demo-criteria-query)
+
 ## Selecting 1 column
 
 Code:
