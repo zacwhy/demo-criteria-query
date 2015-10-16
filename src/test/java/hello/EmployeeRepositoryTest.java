@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
@@ -23,9 +24,11 @@ public class EmployeeRepositoryTest {
 
     @Before
     public void setUp() {
-        employeeRepository.save(new Employee("FirstName1", "LastName1"));
-        employeeRepository.save(new Employee("FirstName2", "LastName2"));
-        employeeRepository.save(new Employee("FirstName3", "LastName3"));
+        employeeRepository.save(Arrays.asList(
+                new Employee("FirstName1", "LastName1"),
+                new Employee("FirstName2", "LastName2"),
+                new Employee("FirstName3", "LastName3")
+        ));
     }
 
     @After
