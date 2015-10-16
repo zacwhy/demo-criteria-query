@@ -16,10 +16,10 @@ import static org.junit.Assert.assertTrue;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Application.class)
-public class EmployeeTest {
+public class EmployeeRepositoryTest {
 
     @Autowired
-    private EmployeeEntityRepository employeeRepository;
+    private EmployeeRepository employeeRepository;
 
     @Before
     public void setUp() {

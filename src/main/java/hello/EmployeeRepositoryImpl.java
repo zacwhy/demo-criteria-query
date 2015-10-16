@@ -1,6 +1,6 @@
 package hello;
 
-public class EmployeeEntityRepositoryImpl extends EntityRepositoryBase {
+public class EmployeeRepositoryImpl extends EntityRepositoryBase {
 
     @Override
     public Class getEntityClass() {
