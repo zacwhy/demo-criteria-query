@@ -39,3 +39,7 @@ Value of `results3` is:
   {firstName=FirstName3, lastName=LastName3, id=3}
 ]
 ```
+
+## Reference
+
+http://docs.oracle.com/javaee/6/tutorial/doc/gkjiq.html
